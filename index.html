@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho em HTML - 1</title>
+    <style>
+        table,th,td{border:2px solid black}
+    </style>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main>
+        <h1>Trabalho de Front-end</h1>
+        <p>
+            <b>Primeiro</b>
+            site do ano utilizando HTML. <br>
+            <i>Yza Rocha de Lima - Turma 2C</i>
+        </p>
+        <ol type="1">
+            <li>Homem-Aranha: Tobey Maguire
+                <ul>
+                    <li>Homem-Aranha</li>
+                    <li>Homem-Aranha 2</li>
+                    <li>Homem-Aranha 3</li>
+                </ul>
+            </li>
+            <li>Homem-Aranha: Andrew Garfield
+                <ul>
+                    <li>O Espetacular Homem-Aranha</li>
+                    <li>O Espetacular Homem-Aranha 2 - A Ameaça de Electro</li>
+                </ul>
+            </li>
+            <li>Homem-Aranha: Tom Holland
+                <ul>
+                    <li>Homem-Aranha: De Volta ao Lar</li>
+                    <li>Homem-Aranha: Longe de Casa</li>
+                    <li>Homem-Aranha: Sem Volta para Casa</li>
+                </ul>
+            </li>
+        </ol>
+        <table>
+            <caption><b>Ângulos Notáveis</b></caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Razões</th>
+                    <th colspan="3">Ângulos</th>
+                </tr>
+                <tr>
+                    <th>30°</th>
+                    <th>45°</th>
+                    <th>60°</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Seno</td>
+                    <td>1/2</td>
+                    <td>√2/2</td>
+                    <td>√3/2</td>
+                </tr>
+                <tr>
+                    <td>Cosseno</td>
+                    <td>√3/2</td>
+                    <td>√2/2</td>
+                    <td>1/2</td>
+                </tr>
+                <tr>
+                    <td>Tangente</td>
+                    <td>√3/3</td>
+                    <td>1</td>
+                    <td>√3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            </tfoot>
+        </table><br>
+        <a href="https://ifrs.edu.br/">
+            <img src="./img/instf.png" alt="imagem do if" width="287" height="306">
+        </a>
+        <figure>
+            <img src="./img/moranguinho.png" alt="imagem da moranguinho"  width="287" height="281">
+            <figcaption>Moranguinho: Vida de Estudante</figcaption>
+        </figure>
+        <form>
+            <fieldset>
+                <legend>Formulário:</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name"><br>
+                <label for="codigo">CPF:</label>
+                <input type="text" id="codigo" maxlength="11"><br>
+                <label for="nasc">Data de Nascimento:</label>
+                <input type="date" id="nasc"><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email"><br>
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone"><br>
+                <label for="curso">Curso:</label>
+                <select id="curso">
+                    <option>Automação Industrial</option>
+                    <option>Eletrotécnica</option>
+                    <option>Fabricação Mecânica</option>
+                    <option>Geoprocessamento</option>
+                    <option>Informática para Internet</option>
+                    <option>Refrigeração e Climatização</option>
+                </select><br>
+                <label for="ano">Ano Cursando:</label>
+                <input type="number" id="ano">
+                <input type="submit" value="Enviar">
+            </fieldset><br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/EZEF0-gEJ0Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
